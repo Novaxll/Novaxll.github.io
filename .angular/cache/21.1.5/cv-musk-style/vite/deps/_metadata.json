@@ -1,0 +1,70 @@
+{
+  "hash": "05b0152c",
+  "configHash": "929601fc",
+  "lockfileHash": "16a37079",
+  "browserHash": "a4058fbd",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "ac23764a",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "4e550b13",
+      "needsInterop": false
+    },
+    "@angular/fire/compat": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2022/angular-fire-compat.mjs",
+      "file": "@angular_fire_compat.js",
+      "fileHash": "2e239d73",
+      "needsInterop": false
+    },
+    "@angular/fire/compat/firestore": {
+      "src": "../../../../../../node_modules/@angular/fire/fesm2022/angular-fire-compat-firestore.mjs",
+      "file": "@angular_fire_compat_firestore.js",
+      "fileHash": "c4be4ab8",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "7818022a",
+      "needsInterop": false
+    },
+    "rxjs/operators": {
+      "src": "../../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
+      "file": "rxjs_operators.js",
+      "fileHash": "79f05e21",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RWFPC56O": {
+      "file": "chunk-RWFPC56O.js"
+    },
+    "chunk-GFTCUTUL": {
+      "file": "chunk-GFTCUTUL.js"
+    },
+    "chunk-3V5KFESH": {
+      "file": "chunk-3V5KFESH.js"
+    },
+    "chunk-BOSH4NMU": {
+      "file": "chunk-BOSH4NMU.js"
+    },
+    "index.esm-RSN2U2LS": {
+      "file": "index__esm-RSN2U2LS.js"
+    },
+    "chunk-FECECUVC": {
+      "file": "chunk-FECECUVC.js"
+    },
+    "chunk-7LJXV3FM": {
+      "file": "chunk-7LJXV3FM.js"
+    },
+    "chunk-VC3KBLVO": {
+      "file": "chunk-VC3KBLVO.js"
+    }
+  }
+}
