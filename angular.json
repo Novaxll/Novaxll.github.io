@@ -27,22 +27,32 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-              "outputPath": "docs",
-              "browser": "src/main.ts",
-              "tsConfig": "tsconfig.app.json",
-              "assets": [
-                {
-                  "glob": "**/*",
-                  "input": "public"
-                }
-              ],
-              "styles": [
-                "src/styles.css"
-              ],
-              "scripts": []
+            "outputPath": "docs",
+            "browser": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
           },
           "configurations": {
             "production": {
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                },
+                "fonts": {
+                  "inline": false
+                }
+              },
               "budgets": [
                 {
                   "type": "initial",
