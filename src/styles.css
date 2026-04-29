@@ -1,65 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-
-body {
-  margin: 0;
-  padding: 40px 20px;
-  background-color: #f0f2f5;
-  font-family: 'Inter', sans-serif;
-  display: flex;
-  justify-content: center;
+/* Espaciado para múltiples secciones de habilidades */
+.skill-item {
+  margin-bottom: 20px;
 }
 
-.cv-container {
-  background-color: #ffffff;
-  max-width: 1000px;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  padding-bottom: 40px;
-}
-
-.cv-grid {
-  display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: 40px;
-  padding: 0 40px;
-}
-
-section {
-  margin-bottom: 30px;
-}
-
-h2 {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #1a202c;
-  border-bottom: 2px solid #edf2f7;
-  padding-bottom: 8px;
-  margin-bottom: 15px;
-}
-
-/* --- CORRECCIÓN DE BARRAS DE PROGRESO --- */
 .progress-bar {
   background-color: #edf2f7;
   border-radius: 12px;
-  height: 24px; /* Aumentamos la altura de 10px a 24px para que quepa el texto */
+  height: 24px;
   width: 100%;
-  margin: 8px 0 20px 0;
-  overflow: hidden; /* Evita que el color oscuro se salga de las esquinas redondeadas */
+  margin: 8px 0;
+  overflow: hidden;
 }
 
 .progress-bar div {
   background-color: #2d3748;
   height: 100%;
   border-radius: 12px;
-  color: #ffffff; /* Letra blanca para generar contraste */
-  text-align: right; /* Envía el número al final de la barra */
-  padding-right: 12px; /* Un poco de espacio antes del borde derecho */
+  color: #ffffff;
+  text-align: right;
+  padding-right: 12px;
   font-size: 12px;
   font-weight: 600;
-  line-height: 24px; /* Debe ser igual al height (24px) para centrar el texto verticalmente */
-  box-sizing: border-box; /* Asegura que el padding no rompa el ancho total */
-  white-space: nowrap; /* Impide que el texto intente bajar a una segunda línea */
+  line-height: 24px;
+  transition: width 0.5s ease-in-out;
 }
