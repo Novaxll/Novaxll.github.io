@@ -40,17 +40,26 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* Estilo para las barras de progreso de tus Skills */
+/* --- CORRECCIÓN DE BARRAS DE PROGRESO --- */
 .progress-bar {
   background-color: #edf2f7;
-  border-radius: 10px;
-  height: 10px;
+  border-radius: 12px;
+  height: 24px; /* Aumentamos la altura de 10px a 24px para que quepa el texto */
   width: 100%;
-  margin: 5px 0 15px 0;
+  margin: 8px 0 20px 0;
+  overflow: hidden; /* Evita que el color oscuro se salga de las esquinas redondeadas */
 }
 
 .progress-bar div {
   background-color: #2d3748;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
+  color: #ffffff; /* Letra blanca para generar contraste */
+  text-align: right; /* Envía el número al final de la barra */
+  padding-right: 12px; /* Un poco de espacio antes del borde derecho */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px; /* Debe ser igual al height (24px) para centrar el texto verticalmente */
+  box-sizing: border-box; /* Asegura que el padding no rompa el ancho total */
+  white-space: nowrap; /* Impide que el texto intente bajar a una segunda línea */
 }

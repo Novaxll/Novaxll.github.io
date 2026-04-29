@@ -1,7 +1,8 @@
 <section>
   <h2>Habilidades</h2>
   <div *ngFor="let skill of skillsList">
-    <p>{{ skill.name }}</p>
+    <p style="margin-bottom: 6px; font-weight: 500;">{{ skill.name }}</p>
+    
     <div class="progress-bar">
       <div [style.width]="skill.percentaje + '%'">{{ skill.percentaje }}%</div>
     </div>
