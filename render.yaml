@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cv-portfolio
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
